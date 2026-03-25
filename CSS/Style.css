@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 1250px) {
+  .myProject {
+    width: 340px;
+  }
+}
+@media (max-width: 1100px) {
+  .myProject {
+    width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .navMenu {
+    font-size: 12px;
+    gap: 20px;
+  }
+  .menuBtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-jakarta;
+}
+button, p {
+  @apply font-inter;
+}
