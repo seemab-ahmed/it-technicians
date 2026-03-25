@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 1250px) {
+  .myProject {
+    width: 340px;
+  }
+}
+@media (max-width: 1100px) {
+  .myProject {
+    width: 100%;
+  }
+}
+
+@media (max-width: 860px) {
+  .navMenu {
+    font-size: 12px;
+    gap: 20px;
+  }
+  .menuBtn {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-jakarta;
+}
+
+button, p {
+  @apply font-inter;
+}
+
+/* ── Entrance animations ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.anim-fade-up {
+  animation: fadeInUp 0.7s ease both;
+}
+.anim-fade-up-1 { animation: fadeInUp 0.7s ease 0.15s both; }
+.anim-fade-up-2 { animation: fadeInUp 0.7s ease 0.30s both; }
+.anim-fade-up-3 { animation: fadeInUp 0.7s ease 0.45s both; }
+.anim-fade-up-4 { animation: fadeInUp 0.7s ease 0.60s both; }
