@@ -22,10 +22,10 @@ export default function Hero() {
           </p>
 
           <div className=" mt-4 lg:mt-[60px] flex flex-col md:flex-row items-center md:items-start gap-6 anim-fade-up-2">
-            <button className="bg-white text-black px-8 py-4 rounded-full flex items-center gap-3 text-[16px] transition-all duration-300 hover:scale-105 hover:shadow-lg">
+            <a href="#contact" className="bg-white text-black px-8 py-4 rounded-full flex items-center gap-3 text-[16px] transition-all duration-300 hover:scale-105 hover:shadow-lg">
               Request Project Support
               <img src="/Images/right-arrow.svg" alt="" />
-            </button>
+            </a>
 
             <p className="text-[16px] text-gray-300 !leading-[1.3] max-w-xs">
               Submit your scope and property location. We respond within one business day
