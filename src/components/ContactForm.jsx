@@ -32,7 +32,7 @@ export default function ContactForm() {
 
       <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-sm p-8 md:p-10">
         <form
-          action="https://formsubmit.co/seemab.work06@gmail.com"
+          action="https://formsubmit.co/mirco@it-technicians.com"
           method="POST"
           encType="multipart/form-data"
           className="space-y-6"
