@@ -13,7 +13,7 @@ export default function Hero() {
       <section className="relative z-10 max-w-[1440px] mx-auto px-6 pt-16 lg:pt-24">
         <div className="max-w-3xl mx-auto md:mx-0 text-center md:text-left">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold !leading-[1.3] text-[#FFFFFF] font-jakarta anim-fade-up">
-            Large Scale On Site IT Infrastructure Execution Across Southern California.
+            Large Scale On Site IT Infrastructure Execution Across Southern California
           </h1>
 
           <p className="mt-10 text-[#FFFFFF] !leading-[1.6] text-base md:text-lg anim-fade-up-1">
